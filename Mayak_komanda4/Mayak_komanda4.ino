@@ -4,10 +4,11 @@
 #include <ArduinoJson.h>
 #include <WiFi.h>
 #include <PubSubClient.h>
+//#include <WebServer.h>
 
 char ssid[] = "Test1";          // Имя вашей Wi-Fi сети (SSID)
 char password[] = "12345678o9";  // Пароль от вашей Wi-Fi сети
-char mqtt_server[] = "mqtt_broker_address"; // Адрес вашего MQTT-брокера
+char mqtt_server[] = "mqtt.msur.team"; // Адрес вашего MQTT-брокера
 //const char* mqtt_server = "mqtt.msur.team; // Адрес вашего MQTT-брокера
 const uint16_t mqtt_port = 1883;              // Порт MQTT-брокера
 char mqtt_user[] = "msur_user";      // Логин для доступа к MQTT-брокеру
